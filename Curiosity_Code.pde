@@ -46,23 +46,19 @@ arc(350, 200, 100, 100, 0, PI+QUARTER_PI, CHORD);
 //pupil
 noFill();
 fill(0, 0, 0);
-ellipse(130, 200, 20, 30);size(500,500);
-background(#000080);
-//ghost
+ellipse(130, 200, 20, 30);
+//pupil2
 noFill();
-strokeWeight(5);
-fill(#07F224);
-ellipse(120,130,300,300);
-//eye
+fill(0, 0, 0);
+ellipse(350, 210, 20, 30);
+//mouth
 noFill();
-fill(255,255,255);
-ellipse(40,100,50,50);
-//eye2
+arc(250, 350, 30, 30, 0, PI);
+//
 noFill();
-fill(255,255,255);
-ellipse(145,80,50,50);
-//hand
+ellipse(250, 350, 16, 16);
+//nose
 noFill();
-fill(#07F224);
-ellipse(50,350,100,100);
+fill(#6A3700);
+ellipse(250, 285, 16, 16);
 
